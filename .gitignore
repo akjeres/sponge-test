@@ -1,0 +1,16 @@
+*.zip
+*.psd
+test-front/
+node_modules/
+*.json
+*.*~
+test.html
+css/dummy.css
+css/footer.css
+css/header.css
+css/loader.css
+css/main.css
+css/variables.css
+css/offer-animation.css
+css/service-animation.css
+css/menu-animation.css
