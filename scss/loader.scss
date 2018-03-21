@@ -1,0 +1,26 @@
+@import "variables";
+/*Preloader*/
+#p_prldr {
+	position: fixed;
+	left: 0;
+	top: 0;
+	right:0;
+	bottom:0;
+	background: lighten(saturate(adjust-hue($primary-color, 4), 8.66), 33.14);
+	z-index: 99;
+}
+ 
+#svg_anm {
+	position: absolute;
+	width: 50%;
+	height: 50%;
+	background: url("../images/main-logo.svg") center center no-repeat;
+	background-size: contain;
+	top: 25%;
+	left: 25%;
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+	#svg_anm {
+		background-image: url("../images/ie-loader.svg");
+	}
+}

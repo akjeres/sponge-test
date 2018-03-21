@@ -1,0 +1,164 @@
+@import "variables";
+
+/*Header*/
+
+.header_row {
+	max-width: 1550px;
+	box-sizing: border-box;
+	padding: 0 39px;
+	width: 100%;
+	margin: 34px auto 26px auto;
+	z-index: 999 !important;
+    display: flex;
+	justify-content: space-between;
+	font: {
+		family: "PN Extra Bold";
+		size: 16px;
+	}
+	& div {
+		display: inline-block;
+	}
+}
+@media (max-width: 1023px) {
+	#header {
+		visibility: hidden;
+	}
+}
+.nav_menu {
+	list-style-type: none;
+	padding: 0;
+	& li {
+		display: inline-block;
+		padding: 0 26px;
+	}
+	& li:first-child {
+		padding-left: 0;
+	}
+	& li:last-child {
+		padding-right: 0;
+	}
+	a {
+		text-decoration: none;
+		color: $menu-color;
+	}
+}
+.nav_menu a:hover {
+	color: transparent;
+}
+.nav_menu a:focus,
+.nav_menu a:active, .nav_menu a:active:focus {
+	color: $primary-color;
+}
+
+@import "menu-animation";
+
+#nav_ruler {
+	height: 2px;
+	position: absolute;
+	top: 33px;
+	background-color: black;	
+}
+div#menu_button {
+	width: 18px;
+	height: 12px;
+	display: none;
+	& div {
+		width: 18px;
+		height: 2px;
+		margin-bottom: 3px;
+		background-color: #1e0e00;
+		display: block;
+	}
+	& div#central {
+		width: 15px;
+		&.menu_open {
+			width: 18px;
+		}
+	}
+	& div:last-child {
+		margin-bottom: 0;
+	}
+}
+@media (max-width: 1023px) {
+	div.content_wrapper {
+		padding-top: 61px;
+	}
+	header {
+		position: fixed;
+		top: 0;
+		width: 100%;
+		z-index: 999;
+	}
+	.header_row {
+		margin-top: 13px;
+		margin-bottom: 0;
+		padding-bottom: 7px;
+		border-bottom: 1px dashed lighten($menu-color, 92.94);
+		display: block;
+		& img {
+			height: 34px;
+			float: left;
+		}
+	}
+	div#menu_button {
+		display: block;
+		margin-top: 12px;
+		float: right;
+		cursor: pointer;
+		&:after {
+			content: "";
+			display: block;
+		}
+	}
+	div.header_menu, div#nav_ruler {
+		display: none;
+	}
+	ul.nav_menu {
+		display: block;
+		text-align: center;
+		& li {
+			padding: 5px 0;
+			display: block;
+		}
+	}
+}
+@media (max-width: 767px) {
+	div.content_wrapper {
+		padding-top: 58px;
+	}
+	.header_row {
+		box-sizing: border-box;
+		width: 100%;
+		margin: 0;
+		padding: 14px 19px 5px 12px;
+		border-bottom: 1px dashed #ededed;
+		display: block;
+	}
+	div#menu_button {
+		margin-top: 10px;
+	}
+}
+
+#header {
+	&.mobile {
+		background-color: transparent;
+		&.scrolled {
+			background-color: #fff;
+			&.menu_open {
+				background-color: #fff;
+			}
+		}
+		&.menu_open {
+				background-color: #fff;
+			}
+	}
+}
+#header_menu {
+	display: inline-block;
+	&.mobile {
+		display: none;
+		&.menu_open {
+			display: block;
+		}
+	}
+}

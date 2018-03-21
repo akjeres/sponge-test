@@ -1,0 +1,16 @@
+/*Service animation*/
+
+@keyframes scale {
+	from { transform: scale(1);}
+	25% { transform: scale(0.5) rotate(-15deg);}
+	50% { transform: scale(1.5) rotate(15deg);}
+	75% { transform: scale(0.5) rotate(-15deg);}
+	to { transform: scale(1);}
+}
+
+div.single_link {
+	&:hover {
+		overflow: hidden;
+		animation: scale 1s ease-in-out;
+	}
+}

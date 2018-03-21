@@ -1,0 +1,272 @@
+@import "variables";
+
+/*Main*/
+.service_title h1 span, .our_offer h2 span {
+	color: $primary-color;
+}
+/*Service*/
+.service {
+	text-align: center;
+	& h1 {
+		font: {
+			family: "PN Extra Bold";
+			size: 100px;
+		}
+		letter-spacing: -1px;
+		color: $main-color;
+		margin: 166px 0 122px 0;
+	}
+}
+.service_title {
+	margin-bottom: 121px;
+	font: {
+		size: 20px;
+		family: "PN Extra Bold";
+	}
+	color: lighten($main-color, 34.90);
+	line-height: 36px; 
+}
+.links_group {
+	margin: 0 10.4%;
+    display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.single_link {
+	width: 280px;
+	color: lighten($main-color, 34.90);
+	font-size: 18px;
+	line-height: 24px;
+	margin-bottom: 82px;
+	& object {
+		height: 70px;
+		margin-bottom: 26px;
+	}
+	& strong {
+		font-family: "PN Extra Bold";
+		color: $main-color;
+	}
+}
+/*@import "service-animation";*/
+
+@media (min-width: 768px) and (max-width: 1023px) {
+	.service h1 {
+		font-size: 72px;
+		margin: 80px 0 62px 0;
+	}
+	.service_title {
+		font: {
+			size: 20px;
+			family: "PN Semi Bold";
+		}
+		line-height: 30px;
+		padding: 0 12%;
+		font-size: 18px;
+		margin-bottom: 72px;
+		text-align: center;
+	}
+	.links_group {
+		margin: 0;
+	    display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+	.single_link {
+		width: 340px;
+		margin-bottom: 38px;
+		& object {
+			margin-bottom: 6px;
+		}
+	}
+}
+@media (max-width: 767px) {
+	.service_title {
+		padding: 0 5% 0 7.8%;
+		text-align: left;
+		line-height: 30px;
+		margin-bottom: 42px;
+		& p {
+			font: {
+				family: "PN Semi Bold";
+				size: 18px;
+			}
+		}
+	}
+	.service h1 {
+		font-size: 60px;
+		margin: 72px 0 46px 0;
+	}
+	.links_group {
+		margin: 0;
+	    display: flex;
+	    flex-wrap: wrap;
+		justify-content: space-around;
+	}
+	.single_link {
+		width: 160px;
+		margin-bottom: 18px;
+		font-size: 16px;
+		line-height: 24px;
+		& object {
+			margin-bottom: 4px;
+		}
+	}
+}
+
+/*Our offer*/
+.our_offer {
+	line-height: 28px;
+	color: lighten($main-color, 34.90);
+	font: {
+		family: "PN Semi Bold";
+		size: 18px;
+	}
+	& h4 {
+		font: {
+			family: "PN Extra Bold";
+			size: 21px;
+		}
+		color: $main-color;
+		margin-top: 42px;
+		margin-bottom: 0px;
+	}
+	& h2 {
+		font: {
+			family: "PN Extra Bold";
+			size: 60px; 
+		}
+		letter-spacing: -1px;
+		color: $main-color;
+		text-align: center;
+		margin-bottom: 106px;
+	}
+	& .hit p, & .searching p {
+		line-height: 24px;
+		margin: 2px 0 0 0;
+	}
+	& p {
+		margin-top: 0px;
+	}
+}
+div.our_offer_group {
+	max-width: 1200px;
+	margin: 0 auto;
+    display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+div.single_offer {
+	width: 527px;
+	margin-bottom: 64px;
+	display: inline-block;
+	margin-right: 146px;
+}
+
+/*@import "offer-animation";*/
+
+div.searching, div.negotiation, div.guarantee {
+	margin-right: 0;
+}
+div.professionalism, div.negotiation {
+	margin-bottom: 36px;
+}
+div.confidentiality, div.guarantee {
+	margin-bottom: 29px;
+}
+div.support {
+	margin-bottom: 108px;
+}
+
+.object_wrapper {
+	@include circle(107px);
+	background-color: lighten(saturate(adjust-hue($main-color, 180), 33.33), 98.82);
+	text-align: center;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+}
+@media (min-width: 768px) and (max-width: 1200px) {
+	.our_offer {
+		margin-top: 40px;
+		margin-bottom: 94px;
+		& h2 {
+			margin-bottom: 50px;
+		}
+	}
+	div.our_offer_group {
+		display: block;
+		width: 595px;
+		margin: 0 auto;
+	}
+	div.single_offer {
+		width: 100%;
+		margin-bottom: 41px;
+		display: block;
+		& p {
+			line-height: 24px;
+		}
+	}
+	div.object_wrapper {
+		@include circle(108px);
+	}
+	div.searching {
+		margin-bottom: 29px;
+	}
+	div.professionalism, div.negotiation {
+		margin-bottom: 31px;
+	}
+	div.guarantee {
+		margin-bottom: 24px;
+	}
+	div.support, div.support p {
+		margin-bottom: 0;
+	}
+}
+@media (max-width: 767px) {
+	.our_offer {
+		margin: 42px 5.625% 32px 6.875%;
+		& h2 {
+			font-size: 46px;
+			margin: 0 0 32px 0;
+		}
+	}
+	.single_offer {
+		& h4 {
+			font-size: 18px;
+			margin-top: 28px;
+		}
+		p {
+			line-height: 28px;
+			font: {
+				size: 16px;
+				family: "PN Bold";
+			}
+		}
+	}
+	.hit p {
+		line-height: 24px;
+	}
+	div.object_wrapper {
+		@include circle(108px);
+	}
+	div.single_offer {
+		margin: 0 0 36px 0;
+		width: 100%;
+	}
+	.professionalism p {
+		margin-bottom: 4px;	
+	}
+	.negotiation p, .confidentiality p {
+		margin-bottom: 2px;
+	}
+	div.confidentiality {
+		margin-bottom: 24px;
+	}
+	.guarantee h4 {
+		margin-top: 24px;
+	}
+	div.guarantee {
+		margin-bottom: 16px;
+	}
+}

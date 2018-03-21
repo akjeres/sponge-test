@@ -1,0 +1,317 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 69 70" width="69" height="70">
+	<style>
+		tspan { white-space:pre }
+		@-webkit-keyframes squeeze-fadeOut {
+			from {
+				-webkit-transform: scale(1.0) rotate(0deg);
+				transform: scale(1.0) rotate(0deg);
+				-webkit-transform-origin: center center;
+				transform-origin: center center;
+				fill: rgba(31,169,151,1);
+			}
+			12.5%  {
+			    -webkit-transform: scale(0.95) rotate(-7.5deg);
+				transform: scale(0.95) rotate(-7.5deg);
+				-webkit-transform-origin: center center;
+				transform-origin: center center;
+				fill: rgba(30,161,144,0.875);
+			}
+			25% {
+				-webkit-transform: scale(0.9) rotate(-15deg);
+				transform: scale(0.9) rotate(-15deg);
+				-webkit-transform-origin: center center;
+				transform-origin: center center;
+				fill: rgba(28,153,137,0.75);
+			}
+			37.5% {
+				-webkit-transform: scale(0.85) rotate(-7.5deg);
+				transform: scale(0.85) rotate(-7.5deg);
+				-webkit-transform-origin: center center;
+				transform-origin: center center;
+				fill: rgba(27,145,129,0.625);
+			}
+			50% {
+				-webkit-transform: scale(0.8) rotate(0deg);
+				transform: scale(0.8) rotate(0deg);
+				-webkit-transform-origin: center center;
+				transform-origin: center center;
+				fill: rgba(25,136,122,0.5);
+			}
+			62.5% {
+			    -webkit-transform: scale(0.85) rotate(7.5deg);
+				transform: scale(0.85) rotate(7.5deg);
+				-webkit-transform-origin: center center;
+				transform-origin: center center;
+				fill: rgba(24,129,115,0.375);
+			}
+			75% {
+				-webkit-transform: scale(0.9) rotate(15deg);
+				transform: scale(0.9) rotate(15deg);
+				-webkit-transform-origin: center center;
+				transform-origin: center center;
+				fill: rgba(22,121,108,0.25);
+			}
+			87.5% {
+				-webkit-transform: scale(0.95) rotate(7.5deg);
+				transform: scale(0.95) rotate(7.5deg);
+				-webkit-transform-origin: center center;
+				transform-origin: center center;
+				fill: rgba(21,112,100,0.125);
+			}
+			100% {
+				-webkit-transform: scale(1.0) rotate(0deg);
+				transform: scale(1.0) rotate(0deg);
+				-webkit-transform-origin: center center;
+				transform-origin: center center;
+				fill: rgba(19,104,93,0);
+			}
+		}
+		@keyframes squeeze-fadeOut {
+			from {
+				-webkit-transform: scale(1.0) rotate(0deg);
+				transform: scale(1.0) rotate(0deg);
+				-webkit-transform-origin: center center;
+				transform-origin: center center;
+				fill: rgba(31,169,151,1);
+			}
+			12.5%  {
+			    -webkit-transform: scale(0.95) rotate(-7.5deg);
+				transform: scale(0.95) rotate(-7.5deg);
+				-webkit-transform-origin: center center;
+				transform-origin: center center;
+				fill: rgba(30,161,144,0.875);
+			}
+			25% {
+				-webkit-transform: scale(0.9) rotate(-15deg);
+				transform: scale(0.9) rotate(-15deg);
+				-webkit-transform-origin: center center;
+				transform-origin: center center;
+				fill: rgba(28,153,137,0.75);
+			}
+			37.5% {
+				-webkit-transform: scale(0.85) rotate(-7.5deg);
+				transform: scale(0.85) rotate(-7.5deg);
+				-webkit-transform-origin: center center;
+				transform-origin: center center;
+				fill: rgba(27,145,129,0.625);
+			}
+			50% {
+				-webkit-transform: scale(0.8) rotate(0deg);
+				transform: scale(0.8) rotate(0deg);
+				-webkit-transform-origin: center center;
+				transform-origin: center center;
+				fill: rgba(25,136,122,0.5);
+			}
+			62.5% {
+			    -webkit-transform: scale(0.85) rotate(7.5deg);
+				transform: scale(0.85) rotate(7.5deg);
+				-webkit-transform-origin: center center;
+				transform-origin: center center;
+				fill: rgba(24,129,115,0.375);
+			}
+			75% {
+				-webkit-transform: scale(0.9) rotate(15deg);
+				transform: scale(0.9) rotate(15deg);
+				-webkit-transform-origin: center center;
+				transform-origin: center center;
+				fill: rgba(22,121,108,0.25);
+			}
+			87.5% {
+				-webkit-transform: scale(0.95) rotate(7.5deg);
+				transform: scale(0.95) rotate(7.5deg);
+				-webkit-transform-origin: center center;
+				transform-origin: center center;
+				fill: rgba(21,112,100,0.125);
+			}
+			100% {
+				-webkit-transform: scale(1.0) rotate(0deg);
+				transform: scale(1.0) rotate(0deg);
+				-webkit-transform-origin: center center;
+				transform-origin: center center;
+				fill: rgba(19,104,93,0);
+			}
+		}
+		@-webkit-keyframes squeeze-fadeIn {
+			from {
+			    -webkit-transform: scale(1.0) rotate(0deg);
+				transform: scale(1.0) rotate(0deg);
+				-webkit-transform-origin: center center;
+				transform-origin: center center;
+				fill: rgba(31,169,151,0);
+			}
+			12.5%  {
+				-webkit-transform: scale(0.95) rotate(-7.5deg);
+				transform: scale(0.95) rotate(-7.5deg);
+				-webkit-transform-origin: center center;
+				transform-origin: center center;
+				fill: rgba(30,161,144,0.125);
+			}
+			25% {
+				-webkit-transform: scale(0.9) rotate(-15deg);
+				transform: scale(0.9) rotate(-15deg);
+				-webkit-transform-origin: center center;
+				transform-origin: center center;
+				fill: rgba(28,153,137,0.25);
+			}
+			37.5% {
+				-webkit-transform: scale(0.85) rotate(-7.5deg);
+				transform: scale(0.85) rotate(-7.5deg);
+				-webkit-transform-origin: center center;
+				transform-origin: center center;
+				fill: rgba(27,145,129,0.375);
+			}
+			50% {
+				-webkit-transform: scale(0.8) rotate(0deg);
+				transform: scale(0.8) rotate(0deg);
+				-webkit-transform-origin: center center;
+				transform-origin: center center;
+				fill: rgba(25,136,122,0.5);
+			}
+			62.5% {
+				-webkit-transform: scale(0.85) rotate(7.5deg);
+				transform: scale(0.85) rotate(7.5deg);
+				-webkit-transform-origin: center center;
+				transform-origin: center center;
+				fill: rgba(24,129,115,0.625);
+			}
+			75% {
+				-webkit-transform: scale(0.9) rotate(15deg);
+				transform: scale(0.9) rotate(15deg);
+				-webkit-transform-origin: center center;
+				transform-origin: center center;
+				fill: rgba(22,121,108,0.75);
+			}
+			87.5% {
+				-webkit-transform: scale(0.95) rotate(7.5deg);
+				transform: scale(0.95) rotate(7.5deg);
+				-webkit-transform-origin: center center;
+				transform-origin: center center;
+				fill: rgba(21,112,100,0.875);
+			}
+			100% {
+				-webkit-transform: scale(1.0) rotate(0deg);
+				transform: scale(1.0) rotate(0deg);
+				-webkit-transform-origin: center center;
+				transform-origin: center center;
+				fill: rgba(19,104,93,1);
+			}
+		}
+		@keyframes squeeze-fadeIn {
+			from {
+			    -webkit-transform: scale(1.0) rotate(0deg);
+				transform: scale(1.0) rotate(0deg);
+				-webkit-transform-origin: center center;
+				transform-origin: center center;
+				fill: rgba(31,169,151,0);
+			}
+			12.5%  {
+				-webkit-transform: scale(0.95) rotate(-7.5deg);
+				transform: scale(0.95) rotate(-7.5deg);
+				-webkit-transform-origin: center center;
+				transform-origin: center center;
+				fill: rgba(30,161,144,0.125);
+			}
+			25% {
+				-webkit-transform: scale(0.9) rotate(-15deg);
+				transform: scale(0.9) rotate(-15deg);
+				-webkit-transform-origin: center center;
+				transform-origin: center center;
+				fill: rgba(28,153,137,0.25);
+			}
+			37.5% {
+				-webkit-transform: scale(0.85) rotate(-7.5deg);
+				transform: scale(0.85) rotate(-7.5deg);
+				-webkit-transform-origin: center center;
+				transform-origin: center center;
+				fill: rgba(27,145,129,0.375);
+			}
+			50% {
+				-webkit-transform: scale(0.8) rotate(0deg);
+				transform: scale(0.8) rotate(0deg);
+				-webkit-transform-origin: center center;
+				transform-origin: center center;
+				fill: rgba(25,136,122,0.5);
+			}
+			62.5% {
+				-webkit-transform: scale(0.85) rotate(7.5deg);
+				transform: scale(0.85) rotate(7.5deg);
+				-webkit-transform-origin: center center;
+				transform-origin: center center;
+				fill: rgba(24,129,115,0.625);
+			}
+			75% {
+				-webkit-transform: scale(0.9) rotate(15deg);
+				transform: scale(0.9) rotate(15deg);
+				-webkit-transform-origin: center center;
+				transform-origin: center center;
+				fill: rgba(22,121,108,0.75);
+			}
+			87.5% {
+				-webkit-transform: scale(0.95) rotate(7.5deg);
+				transform: scale(0.95) rotate(7.5deg);
+				-webkit-transform-origin: center center;
+				transform-origin: center center;
+				fill: rgba(21,112,100,0.875);
+			}
+			100% {
+				-webkit-transform: scale(1.0) rotate(0deg);
+				transform: scale(1.0) rotate(0deg);
+				-webkit-transform-origin: center center;
+				transform-origin: center center;
+				fill: rgba(19,104,93,1);
+			}
+		}
+		.shp0, .shp1 {
+			fill: rgba(31,169,151,1);
+	        background-color: transparent;
+	        -webkit-transition: all 1s ease-in-out;
+	        -moz-transition: all 1s ease-in-out;
+	        -ms-transition: all 1s ease-in-out;
+	        -o-transition: all 1s ease-in-out;
+	        transition: all 1s ease-in-out;
+	        background-color: transparent;
+		 }
+		 .shp1 {
+	        fill: rgba(31,169,151,0);
+		 }
+		 svg {
+			-webkit-transition: all 1s ease-in-out;
+	        -moz-transition: all 1s ease-in-out;
+	        -ms-transition: all 1s ease-in-out;
+	        -o-transition: all 1s ease-in-out;
+	        transition: all 1s ease-in-out;	
+		}
+		svg:hover .shp0, svg:active .shp0 {
+			fill: rgba(19,104,93,0);
+			-webkit-animation: squeeze-fadeOut 1s ease-in-out;
+			animation: squeeze-fadeOut 1s ease-in-out;
+		}
+		svg:hover .shp1, svg:active .shp1 {
+			fill: rgba(19,104,93,1);
+			-webkit-animation: squeeze-fadeIn 1s ease-in-out;
+			animation: squeeze-fadeIn 1s ease-in-out;
+		}
+
+	</style>
+	<path id="Shape 53" class="shp0" d="M45.64 56.29C40.39 56.29 35.45 54.29 31.71 50.66L16.22 35.6C10.23 29.77 8.72 20.97 12.47 13.68C12.53 13.56 12.61 13.45 12.71 13.35L12.72 13.35C13.97 11.07 16.26 9.72 18.88 9.72C20.71 9.72 22.48 10.42 23.74 11.65L30.31 17.89C31.76 19.3 32.48 21.22 32.3 23.17C32.3 24.72 31.37 26.51 29.82 27.83C29.35 28.2 29.09 28.7 29.09 29.17C29.09 29.23 29.08 29.29 29.08 29.34C28.98 29.99 29.35 30.47 29.59 30.7L36.61 37.52C36.97 37.88 37.47 38.05 37.99 38.03C38.53 38 39.03 37.75 39.37 37.34C40.61 35.78 42.58 34.88 44.76 34.88C46.58 34.88 48.41 35.64 49.76 36.95L56.34 43.35C57.9 44.86 58.54 46.91 58.16 49.13C57.81 51.33 56.58 53.04 54.59 54.07L54.58 54.08C54.49 54.16 54.39 54.24 54.28 54.3C51.75 55.6 48.76 56.29 45.64 56.29ZM14.68 14.98C11.55 21.27 12.88 28.81 18.04 33.83L33.53 48.89C36.78 52.05 41.08 53.79 45.64 53.79C48.27 53.79 50.78 53.23 52.91 52.17L52.92 52.16C53.01 52.07 53.13 51.99 53.25 51.93C54.61 51.27 55.39 50.22 55.62 48.74C55.86 47.32 55.47 46.04 54.52 45.12C54.52 45.12 54.52 45.12 54.52 45.12L47.94 38.72C47.07 37.87 45.91 37.38 44.76 37.38C43.38 37.38 42.16 37.93 41.39 38.89C40.58 39.87 39.4 40.46 38.13 40.53C36.87 40.61 35.66 40.14 34.79 39.29L27.77 32.47C26.82 31.54 26.36 30.31 26.52 29.08C26.54 27.88 27.16 26.7 28.17 25.91C29.11 25.11 29.73 24 29.73 23.05C29.85 21.74 29.4 20.55 28.5 19.67L21.93 13.43C21.15 12.67 20.01 12.22 18.88 12.22C17.16 12.22 15.71 13.11 14.92 14.66C14.86 14.78 14.78 14.89 14.68 14.98ZM53.68 53.19L53.69 53.19L53.68 53.19ZM44.7 12.49C44.25 12.49 43.81 12.26 43.57 11.84L39.94 5.41C39.59 4.81 39.82 4.05 40.44 3.72L47.05 0.18C47.68 -0.16 48.46 0.07 48.8 0.67C49.14 1.28 48.92 2.04 48.29 2.37L42.81 5.3L45.83 10.63C46.17 11.24 45.94 12 45.32 12.33C45.13 12.44 44.91 12.49 44.7 12.49ZM67.71 34.53C67.04 34.53 66.47 34.03 66.42 33.37C65.51 20.39 56.16 9.62 43.17 6.57L42.17 6.35C41.48 6.21 41.03 5.55 41.17 4.87C41.31 4.19 42 3.75 42.69 3.9L43.77 4.13C57.87 7.44 68 19.12 68.99 33.2C69.04 33.89 68.51 34.48 67.8 34.53C67.77 34.53 67.74 34.53 67.71 34.53ZM44.7 12.49C44.25 12.49 43.81 12.26 43.57 11.84L39.94 5.41C39.59 4.81 39.82 4.05 40.44 3.72L47.05 0.18C47.68 -0.16 48.46 0.07 48.8 0.67C49.14 1.28 48.92 2.04 48.29 2.37L42.81 5.3L45.83 10.63C46.17 11.24 45.94 12 45.32 12.33C45.13 12.44 44.91 12.49 44.7 12.49ZM21.33 69.01C20.88 69.01 20.44 68.78 20.2 68.36C19.86 67.76 20.09 67 20.71 66.66L26.19 63.73L23.18 58.4C22.83 57.79 23.06 57.03 23.68 56.7C24.31 56.37 25.09 56.59 25.43 57.19L29.07 63.62C29.41 64.23 29.18 64.99 28.56 65.32L21.95 68.86C21.76 68.96 21.54 69.01 21.33 69.01ZM26.57 65.16C26.49 65.16 26.4 65.16 26.32 65.14L25.23 64.9C11.14 61.59 1.01 49.91 0.01 35.84C-0.04 35.15 0.5 34.55 1.21 34.51C1.93 34.46 2.53 34.98 2.58 35.67C3.5 48.65 12.84 59.42 25.83 62.47L26.83 62.68C27.52 62.82 27.98 63.48 27.84 64.16C27.71 64.75 27.18 65.16 26.57 65.16ZM21.33 69.01C20.88 69.01 20.44 68.78 20.2 68.36C19.86 67.76 20.09 67 20.71 66.66L26.19 63.73L23.18 58.4C22.83 57.79 23.06 57.03 23.68 56.7C24.31 56.37 25.09 56.59 25.43 57.19L29.07 63.62C29.41 64.23 29.18 64.99 28.56 65.32L21.95 68.86C21.76 68.96 21.54 69.01 21.33 69.01ZM41.85 28.81C41 28.73 40.31 28.51 39.74 28.19C39.25 27.92 39.11 27.29 39.43 26.85L39.45 26.83C39.73 26.44 40.28 26.31 40.7 26.57C41.23 26.88 41.88 27.09 42.63 27.09C43.35 27.09 43.8 26.82 43.8 26.44C43.8 25.35 39.16 26.22 39.16 23.16C39.16 21.95 40.1 20.87 41.85 20.66L41.85 19.54L43.21 19.54L43.21 20.68C43.8 20.76 44.35 20.92 44.84 21.16C45.36 21.41 45.47 22.08 45.12 22.53L45.12 22.53C44.84 22.89 44.33 22.98 43.91 22.78C43.36 22.51 42.76 22.38 42.2 22.38C41.59 22.38 41.32 22.62 41.32 22.95C41.32 23.97 45.94 23.23 45.94 26.19C45.94 27.62 44.97 28.62 43.21 28.81L43.21 29.89L41.85 29.89L41.85 28.81Z" />
+<path
+     id="Shape 53-1"
+     class="shp1"
+     d="m 45.64,56.29 c -5.25,0 -10.19,-2 -13.93,-5.63 L 16.22,35.6 c -5.99,-5.83 -7.5,-14.63 -3.75,-21.92 0.06,-0.12 0.14,-0.23 0.24,-0.33 l 0.01,0 c 1.25,-2.28 3.54,-3.63 6.16,-3.63 1.83,0 3.6,0.7 4.86,1.93 l 6.57,6.24 c 1.45,1.41 2.17,3.33 1.99,5.28 0,1.55 -0.93,3.34 -2.48,4.66 -0.47,0.37 -0.73,0.87 -0.73,1.34 0,0.06 -0.01,0.12 -0.01,0.17 -0.1,0.65 0.27,1.13 0.51,1.36 l 7.02,6.82 c 0.36,0.36 0.86,0.53 1.38,0.51 0.54,-0.03 1.04,-0.28 1.38,-0.69 1.24,-1.56 3.21,-2.46 5.39,-2.46 1.82,0 3.65,0.76 5,2.07 l 6.58,6.4 c 1.56,1.51 2.2,3.56 1.82,5.78 -0.35,2.2 -1.58,3.91 -3.57,4.94 l -0.01,0.01 c -0.09,0.08 -0.19,0.16 -0.3,0.22 -2.53,1.3 -5.52,1.99 -8.64,1.99 z M 14.68,14.98 c -3.13,6.29 -1.8,13.83 3.36,18.85 l 15.49,15.06 c 3.25,3.16 7.55,4.9 12.11,4.9 2.63,0 5.14,-0.56 7.27,-1.62 l 0.01,-0.01 c 0.09,-0.09 0.21,-0.17 0.33,-0.23 1.36,-0.66 2.14,-1.71 2.37,-3.19 0.24,-1.42 -0.15,-2.7 -1.1,-3.62 l 0,0 -6.58,-6.4 c -0.87,-0.85 -2.03,-1.34 -3.18,-1.34 -1.38,0 -2.6,0.55 -3.37,1.51 -0.81,0.98 -1.99,1.57 -3.26,1.64 -1.26,0.08 -2.47,-0.39 -3.34,-1.24 l -7.02,-6.82 c -0.95,-0.93 -1.41,-2.16 -1.25,-3.39 0.02,-1.2 0.64,-2.38 1.65,-3.17 0.94,-0.8 1.56,-1.91 1.56,-2.86 0.12,-1.31 -0.33,-2.5 -1.23,-3.38 l -6.57,-6.24 c -0.78,-0.76 -1.92,-1.21 -3.05,-1.21 -1.72,0 -3.17,0.89 -3.96,2.44 -0.06,0.12 -0.14,0.23 -0.24,0.32 z m 39,38.21 0.01,0 z" />
+  <path
+     id="Shape 53-6"
+     class="shp1"
+     d="m 40.241679,17.973496 c -0.355701,0 -0.658311,-0.270888 -0.684856,-0.628459 C 39.073707,10.312753 34.109828,4.4778027 27.213487,2.8253797 L 26.68259,2.7061867 c -0.366318,-0.07585 -0.605221,-0.433425 -0.530896,-0.80183 0.07432,-0.368412 0.440644,-0.60679 0.806963,-0.525526 l 0.573368,0.124611 c 7.485635,1.793284 12.863614,8.121255 13.389201,15.7494893 0.02655,0.373829 -0.254831,0.693479 -0.631767,0.720565 -0.01592,0 -0.03186,0 -0.04778,0 z" />
+  <path
+     id="Shape 53-6-5"
+     class="shp1"
+     d="m 36.729688,17.235002 c -0.290323,0 -0.537314,-0.194865 -0.558981,-0.452099 C 35.776387,11.723991 31.724858,7.5264247 26.09605,6.3376977 l -0.433318,-0.08574 c -0.298991,-0.05458 -0.493985,-0.311797 -0.43332,-0.576822 0.06066,-0.265032 0.359656,-0.436517 0.658645,-0.378057 l 0.467985,0.08965 c 6.109791,1.290058 10.499308,5.8422943 10.928294,11.3299243 0.02167,0.268921 -0.207993,0.498866 -0.515649,0.518357 -0.01301,0 -0.026,0 -0.039,0 z" />
+  <path
+     id="Shape 53-6-5-3"
+     class="shp1"
+     d="m 33.047346,17.323517 c -0.205472,0 -0.380277,-0.147719 -0.395611,-0.342713 -0.279074,-3.834923 -3.146488,-7.0168983 -7.1302,-7.9180103 l -0.306676,-0.065 c -0.211605,-0.04133 -0.34961,-0.236355 -0.306675,-0.43726 0.04293,-0.20091 0.254541,-0.330897 0.466147,-0.286585 l 0.33121,0.06796 c 4.32412,0.977934 7.430741,4.4287623 7.73435,8.5886713 0.01533,0.203853 -0.147205,0.378171 -0.364944,0.392949 -0.0092,0 -0.0184,0 -0.0276,0 z" />
+  <path
+     id="Shape 53-62"
+     class="shp1"
+     d="m 56.514224,24.488914 c 0,0.45 0.23,0.89 0.65,1.13 l 6.43,3.63 c 0.6,0.35 1.36,0.12 1.69,-0.5 l 3.54,-6.61 c 0.34,-0.63 0.11,-1.41 -0.49,-1.75 -0.61,-0.34 -1.37,-0.12 -1.7,0.51 l -2.93,5.48 -5.33,-3.02 c -0.61,-0.34 -1.37,-0.11 -1.7,0.51 -0.11,0.19 -0.16,0.41 -0.16,0.62 z M 34.474227,1.4789042 c 0,0.67 0.5,1.24 1.16,1.29 12.979997,0.91 23.749997,10.2600098 26.799997,23.2500098 l 0.22,1 c 0.14,0.69 0.8,1.14 1.48,1 0.68,-0.14 1.12,-0.83 0.97,-1.52 l -0.23,-1.08 c -3.31,-14.1 -14.99,-24.2300098 -29.069997,-25.22000974 -0.69,-0.05 -1.28,0.48 -1.33,1.18999994 0,0.03 0,0.06 0,0.09 z M 56.514224,24.488914 c 0,0.45 0.23,0.89 0.65,1.13 l 6.43,3.63 c 0.6,0.35 1.36,0.12 1.69,-0.5 l 3.54,-6.61 c 0.34,-0.63 0.11,-1.41 -0.49,-1.75 -0.61,-0.34 -1.37,-0.12 -1.7,0.51 l -2.93,5.48 -5.33,-3.02 c -0.61,-0.34 -1.37,-0.11 -1.7,0.51 -0.11,0.19 -0.16,0.41 -0.16,0.62 z M -0.00577276,47.858918 c 0,0.45 0.23,0.89 0.65,1.13 0.59999996,0.34 1.35999996,0.11 1.69999996,-0.51 l 2.93,-5.48 5.3299958,3.01 c 0.61,0.35 1.37,0.12 1.7,-0.5 0.33,-0.63 0.11,-1.41 -0.49,-1.75 L 5.3842272,40.118914 c -0.61,-0.34 -1.37,-0.11 -1.7,0.51 l -3.53999996,6.610004 c -0.1,0.19 -0.15,0.41 -0.15,0.62 z m 3.84999996,-5.24 c 0,0.08 0,0.17 0.02,0.25 l 0.24,1.09 c 3.31,14.09 14.9899958,24.21999 29.0599998,25.21999 0.69,0.05 1.29,-0.49 1.33,-1.2 0.05,-0.72 -0.47,-1.32 -1.16,-1.37 -12.980004,-0.92 -23.7499998,-10.25999 -26.7999998,-23.24999 l -0.21,-1 c -0.14,-0.690004 -0.8,-1.150004 -1.48,-1.010004 -0.59,0.13 -1,0.660004 -1,1.270004 z m -3.84999996,5.24 c 0,0.45 0.23,0.89 0.65,1.13 0.59999996,0.34 1.35999996,0.11 1.69999996,-0.51 l 2.93,-5.48 5.3299958,3.01 c 0.61,0.35 1.37,0.12 1.7,-0.5 0.33,-0.63 0.11,-1.41 -0.49,-1.75 L 5.3842272,40.118914 c -0.61,-0.34 -1.37,-0.11 -1.7,0.51 l -3.53999996,6.610004 c -0.1,0.19 -0.15,0.41 -0.15,0.62 z" />
+</svg>

@@ -1,0 +1,71 @@
+@import "variables";
+
+html, body {
+	margin: 0;
+	padding: 0;
+    font: {
+    	family: "PN Semi Bold";
+    	size: 14px;
+	}
+}
+.content_wrapper {
+	@include backgroundSize(cover);
+	max-width: 1920px;
+	margin: 0 auto;
+	overflow: hidden;
+    background: top right url("../images/main-background.png") no-repeat;
+    color: #000;
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+	.content_wrapper {
+		background: 116% -148px url("../images/mobile-background.png") no-repeat;
+		@include backgroundSize(40%);
+	}
+}
+@media (max-width: 767px) {
+	.content_wrapper {
+		background: 150% -48px url("../images/mobile-background.png") no-repeat;
+		@include backgroundSize(50%);
+	}
+}
+
+/*Loader*/
+@import "loader";
+
+/*Content*/
+@import "header";
+@import "main";
+@import "footer";
+
+.clear {
+    clear: both;
+    display: none;
+    height: 0;
+    width: 0;
+    font-size: 0;
+    overflow: hidden;
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+	.header_logo a img {
+		border: none;
+	}
+}
+@-moz-document url-prefix() {
+		.header_row, .service h1, .service_title,
+		.our_offer h2, footer a, .single_link strong, .our_offer h4 {
+			font-family: "PN Bold";
+		}
+	}
+@-moz-document url-prefix() and (max-width: 767px) {
+	.single_offer p {
+		font-family: "PN Semi Bold";
+	}
+}
+
+@keyframes scrollFadeIn {
+		from { opacity: 0}
+    	to { opacity: 1}
+	}
+.fade-class {
+	animation: scrollFadeIn 1.5s;
+}

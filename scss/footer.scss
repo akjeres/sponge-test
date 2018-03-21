@@ -1,0 +1,39 @@
+@import "variables";
+
+/*Footer*/
+footer {
+	background-color: darken($footer-color, 100);
+	margin: 0;
+	padding: 54px 0 50px 0;
+	text-align: center;
+	& p {
+		margin: 0;
+		font-family: "PN Bold";
+		color: $footer-color;
+	}
+	& a {
+		font-family: "PN Extra Bold";
+		text-decoration: none;
+		color: $primary-color;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+	footer {
+		padding: 40px 0 40px 0;
+	}
+}
+
+@media (max-width: 767px) {
+	footer {
+		padding-top: 36px;
+		padding-bottom: 28px;
+		& .development {
+			line-height: 32px;
+		}
+		& #copyrights:after {
+			content: "";
+			display: block;
+		}
+	}	
+}

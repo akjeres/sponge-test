@@ -4,6 +4,7 @@ test-front/
 node_modules/
 *.json
 *.*~
+gulpfile.js
 test.html
 css/dummy.css
 css/footer.css

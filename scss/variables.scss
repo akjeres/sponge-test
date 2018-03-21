@@ -1,0 +1,33 @@
+@font-face {
+	font-family: PN Bold;
+	src: url("../fonts/ProximaNovaBold/proximanova-bold.woff");
+}
+@font-face {
+	font-family: PN Extra Bold;
+	src: url("../fonts/ProximaNovaExtraBold/proximanova-extrabold.woff");
+}
+@font-face {
+	font-family: PN Semi Bold;
+	src: url("../fonts/ProximaNovaSemiBold/proximanova-semibold.woff");
+}
+
+@mixin backgroundSize ($size) {
+	-webkit-background-size: $size;
+    -moz-background-size: $size;
+    -ms-background-size: $size;
+    background-size: $size;
+}
+@mixin circle($diameter) {
+	width: $diameter;
+	height: $diameter;
+	-webkit-border-radius: $diameter/2;
+	-moz-border-radius: $diameter/2;
+	-ms-border-radius: $diameter/2;
+	border-radius: $diameter/2;
+}
+
+
+$primary-color: #20ab98;
+$menu-color: #000;
+$main-color: #000;
+$footer-color: #fff;
